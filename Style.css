@@ -1,0 +1,89 @@
+body{
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	font-family: Arial,Helvetica;
+	Padding: 0px;
+	margin: 0px;
+}
+
+nav{
+	background-color: cadetblue;
+	color: white;
+}
+nav ul {
+	list-style-type:none; 
+	padding: 0px; 
+	margin: 0px;
+}
+nav ul li {
+    padding: 16px; 
+    text-align: center;
+    border-bottom: 1px solid black;
+    transition: background-color 0.5s;
+}
+
+nav ul li:hover{
+	background-color: black;
+
+}
+
+.image-area {
+	background-image:url(wallpaper.jpg);
+	background-position: center center;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.image-text{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 2rem;
+
+}  
+
+
+@media screen and (min-width: 700px){
+	nav ul {
+		text-align: right;
+	}
+
+	nav ul li{
+		display:inline-block;
+		border-bottom: 0px;
+	}
+}
+
+
+.testimonials{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+footer ul{
+	background-color: blue;
+	margin-bottom: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+footer ul {
+	list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
